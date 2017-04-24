@@ -1,0 +1,352 @@
+* 
+	box-sizing: border-box 
+	
+$fonts: 'Lato', sans-serif
+$green: #9ACD32
+
+body 
+	margin: 0
+	font: 100% $fonts
+
+.container 
+	max-width: 1200px
+	margin: 0 auto
+
+nav 
+	background-color: #313234
+	height: 90px
+	width: 100%
+
+section 
+	.container 
+		margin: 50px auto
+		text-align: center
+
+header 
+	ul 
+		margin: 0
+		padding: 0
+		list-style-type: none
+		float: right
+	li 
+		display: inline-block
+	a 
+		line-height: 70px
+		display: block
+		color: #fff
+		padding: 0 20px
+		margin-top: 10px
+		margin-bottom: 10px
+		text-decoration: none
+		text-transform: uppercase 
+		font-size: 20px
+		font-weight: 900
+		&:hover
+			color: $green
+			font-weight: 900
+	img		
+		padding: 3px 0
+		height: 70px
+		margin: 10px 40px 60px
+.hero 
+	.slogan 
+		float: right
+		background-color: rgba(49,51,50,0.75)
+		width: 550px
+		position: absolute
+		top: 40%
+		right: 0
+		padding: 30px	
+.hero  
+	background-image: url(https://t4.ftcdn.net/jpg/00/95/02/71/240_F_95027109_WeTOhNT2tNo9m1wTJXTFVFx8E5s3Q0kn.jpg)
+	height: 600px
+	background-size: cover
+	background-position: center
+	position: relative
+	
+h1 
+	font-size: 40px
+	text-transform: uppercase
+	font-weight: 900
+
+.hero 
+	.slogan 
+		h1 
+			margin: 0
+			text-transform: uppercase
+			color: #fffeff
+			font-weight: 900
+			font-size: 40px
+			float: right
+			font-size: 40px
+			text-transform: uppercase
+			font-weight: 900	
+p 
+	font-size: 18px
+
+/*about*/
+.icon 
+	background: #333
+	border-radius: 10px
+	margin: 0 auto
+	padding: 25px
+	padding-top: 33px
+	text-align: center
+	width: 110px
+	height: 100px
+	color: #ECF0F1
+	&:hover
+		background: $green
+		cursor: pointer
+.fa 
+	font-size: 50px
+	padding: 20px
+    
+.about 
+	h2 
+		text-transform: uppercase
+		font-size: 32px
+		font-weight: 900
+
+/*gallery*/
+
+.gallery 
+	margin-top: 50px
+
+.column-1 
+	background-image: url("https://t3.ftcdn.net/jpg/01/30/82/48/240_F_130824824_bdLvrwLOL74HdtdoIENsHOTdhwGu6v8Y.jpg")
+	
+.column-2 
+	background-image: url("https://t4.ftcdn.net/jpg/01/21/58/99/240_F_121589938_ZGGhaJW1zi6hhpdI0cYoegRV9RtXYv5x.jpg")	
+.column-3 
+	background-image: url("https://t3.ftcdn.net/jpg/00/60/92/84/240_F_60928497_x0oF94HoK7ILtHelnPmQCYvuWemT68qt.jpg")
+
+.column-4 
+	background-image: url("https://t4.ftcdn.net/jpg/00/87/45/41/240_F_87454140_y1js9kKuL6tozzbnAMadCVa3l8egXe5M.jpg")
+
+.column-5 
+	background-image: url("https://t3.ftcdn.net/jpg/01/02/64/80/240_F_102648008_IYK0RVbzd7fVYD9L71JseabeEdhR5ltE.jpg")
+
+.column-6 
+	background-image: url("https://t3.ftcdn.net/jpg/01/06/17/02/240_F_106170226_FZQFxZHoriaLGVupkfPUlwfy2bJvrjCx.jpg")
+
+.column-7 
+	background-image: url("https://t3.ftcdn.net/jpg/01/08/69/98/240_F_108699897_Ik7KcQ9QKnX9INkXpe9lp3lTs9SlE22M.jpg")
+
+.column-8 
+	background-image: url("https://t4.ftcdn.net/jpg/00/53/30/65/240_F_53306570_E10GrAl7AsxEHkImLmHt3HaZIst9NwIS.jpg")
+
+.column 
+	height: 300px
+	background-size: cover
+	
+.layer 
+	height: 100%
+	width: 100% 
+	text-align: center
+	line-height: 230px
+    
+.column i 
+	color: transparent
+	&:hover 
+		color: black
+		font-size: 15px
+		text-align: center
+		background-color: white
+		border-radius: 15%
+		padding: 5px
+		margin: 3px
+	
+.column:hover .layer 
+	cursor: pointer
+	background-color: rgba( 0, 0, 0, 0.5)
+
+.gallery 
+	.col-3 
+		padding: 0
+		height: 100%
+	.row 
+		height: 230px
+		overflow: hidden
+
+/*team*/
+
+.team 
+	padding: 90px 0 80px
+	.col-3
+		p 
+			color: #5e5f5a
+			font-size: 18px
+			font-weight: 600
+			text-align: center
+.person 
+	position: relative
+	max-width: 240px
+	margin: 0 auto
+	img,
+	p 
+		border-radius: 50%
+		background-size: cover
+		width: 240px
+		height: 210px
+
+.person p 
+	position: absolute
+	top: 0
+	left: 0
+	display: block
+	width: 100%
+	margin: 0
+	font-size: 18px
+	line-height: 230px
+	color: #fdfdfd
+	background: rgba(0, 0, 0, 0.4)
+	opacity: 0
+	-webkit-transition: 0.5s
+	transition: 0.5s
+	text-align: center
+	&:hover
+		opacity: 1
+		font-size: 18px
+
+/*promotion*/
+
+.promotion 
+	background-color: $green
+	text-align: left
+	h2 
+		color: white
+		text-transform: uppercase
+		font-weight: 900
+		font-size: 32px
+	.col-4 img 
+		height: 100%
+		width: 100%
+		margin: 0
+		padding: 0
+	.col-8 
+		p 
+			padding-top: 40px
+			color: white
+
+/*statistic*/
+
+.statistic 
+	h1 
+		font-weight: bold
+	p 
+		text-transform: uppercase
+		color: $green
+		font-weight: 900
+	
+/*footer*/
+
+.contact 
+	background: #313234
+	color: #FFF
+	padding: 0px
+	text-align: left
+	h3 
+		font-size: 24px
+		font-weight: 900
+
+
+footer table 
+	overflow-x: auto
+	border-spacing: 10px 15px
+	td,
+	tr 
+		vertical-align: top
+		font-size: 18px
+		font-weight: 900
+	
+.footer 
+	.icon-btn 
+		background-color: $green
+		border: none
+		border-radius: 5%
+		cursor: pointer
+		color: white
+		font-size: 30px
+		height: 35px
+		width: 35px
+		margin: 5px
+		text-align: center
+		&:hover
+			transform: scale(1.5, 1.5)
+	.fa 
+		font-size: 20px
+		padding: 0px	
+
+.copyrights 
+	background-color: black
+	color: #fff
+	width: 100%
+	height: 70px
+	margin-bottom: 0
+	p 
+		text-align: center
+		font-size: 15px	
+		line-height: 70px
+/*grid*/
+
+.row:before,
+.row:after 
+	content: ""
+	display: table
+	clear: both
+
+[class*="col-"] 
+	float: left
+	min-height: 1px
+	padding: 12px
+		
+.col-1 
+	width: 8.33%
+.col-2 
+	width: 16.66%
+.col-3 
+	width: 25%
+.col-4 
+	width: 33.33%
+.col-5 
+	width: 41.66%
+.col-6 
+	width: 50%
+.col-7 
+	width: 58.33%
+.col-8 
+	width: 66.66%	
+.col-9 
+	width: 75%
+.col-10 
+	width: 83.33%
+.col-11 
+	width: 91.66
+.col-12 
+	width: 100%
+.col-offset-1 
+	margin-left: 8.33%
+.col-offset-2 
+	margin-left: 16.66%
+.col-offset-3 
+	margin-left: 25%
+.col-offset-4 
+	margin-left: 33.33%
+.col-offset-5 
+	margin-left: 41.66%
+.col-offset-6 
+	margin-left: 50%
+.col-offset-7 
+	margin-left: 58.33%
+.col-offset-8 
+	margin-left: 66.66%
+.col-offset-9 
+	margin-left: 75%
+.col-offset-10 
+	margin-left: 83.33%
+.col-offset-11 
+	margin-left: 91.66%	
+.col-offset-12 
+	margin-left: 100%
+

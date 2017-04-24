@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+		
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+}
+
+
+.container {
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+header {
+	height: 50px;
+	background: #FFD700;
+	
+	
+}
+
+.container ul {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+			justify-content: center;
+	list-style: none;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 100%;
+	height: 50px;
+}
+
+.container ul li {
+	  display: -webkit-flex;
+	  display:flex;
+	  -webkit-align-items: center;
+	  		  align-items: center;	
+	  width:150px;
+	  -webkit-justify-content: space-around;
+	  		  justify-content: space-around;
+
+}
+
+.container ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container ul li a:hover {
+	color: #79ff4d;
+	
+}
+
+.jumbotron {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+			align-items: center;
+	-webkit-justify-content: center;
+			justif-content: center;
+	height: 600px;
+	background: #696969;
+	color: white;
+	background-image: url(https://images.pexels.com/photos/23978/pexels-photo-23978.jpg?h=350&auto=compress&cs=tinysrgb);
+	background-size: cover;
+	background-position: center;
+	
+	
+}
+
+.jumbotron h1 {
+	display;-webkit-flex;
+	dislay: flex;
+	-webkit-align-items: center;
+			align-items: center;
+	
+}
+
+.gallery {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	height: 400px;
+	width: 400px;
+	
+
+}
+
+.cards {
+	
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+.card {
+	display: -webkit-flex;
+	display: flex;
+	background-color: #FFD700;
+	color: white;
+	width: 200px;
+	height: 100px;
+	transition: 2s;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+			justify-content: center;
+	-webkit-align-items: center;
+			align-items: center;
+	margin: 15px;
+	
+}
+
+.cards :hover {
+	background-color: #ffec80;
+	cursor: pointer;
+	font-weight: 900;
+	transform: scale(1.1);
+	font-size: 1.2em;
+	
+	
+}
+
+.footer {
+	display: -webkit-flex;
+	display: flex;
+	height: 80px;
+	background-color: #696969;
+	color: white;
+	
+}
+
+.first, .second, .third {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+}
+
+	
+.second {
+	flex-grow: 2;
+	-webkit-justify-content: center;
+			justify-content: center;
+	-webkit-align-items: center;
+			align-items: center;
+}
+
+
+
+
